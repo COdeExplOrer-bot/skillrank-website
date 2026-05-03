@@ -27,7 +27,7 @@ export default function Navbar({ navigate, current }) {
     <>
       <nav style={{
         position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1000,
-        background: scrolled ? 'rgba(10,10,10,0.96)' : 'transparent',
+        background: 'rgba(10,10,10,0.96)',
         backdropFilter: scrolled ? 'blur(16px)' : 'none',
         borderBottom: scrolled ? '1px solid rgba(255,255,255,0.06)' : 'none',
         transition: 'all 0.3s ease',
